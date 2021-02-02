@@ -4,6 +4,7 @@ import "time"
 
 // Thing describes a third party device or service
 type Thing struct {
+	ID              string           `json:"id"`
 	Name            string           `json:"name"`
 	Manufacturer    string           `json:"manufacturer"`
 	DisplayType     string           `json:"displayType"`
